@@ -11,6 +11,8 @@ import ShapesMenu from "./ShapesMenu";
 import ActiveUsers from "./users/ActiveUsers";
 import { NewThread } from "./comments/NewThread";
 
+import logo from "../public/assets/LOGOO.png";
+
 const Navbar = ({
   activeElement,
   imageInputRef,
@@ -29,7 +31,7 @@ const Navbar = ({
       <div className='md1:justify-self-start md1:bg-primary-black md1:flex md:w-[220px] lg:w-[250px]
       md1:items-center pl-5 sm:bg-transparent max-sm1:hidden' style={{ borderBottomRightRadius: '20px' }}>
         <Image
-          src='./assets/LOGOO.png'
+          src={logo}
           alt='SCR@TCH'
           width={120}
           height={40}
