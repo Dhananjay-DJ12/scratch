@@ -7,7 +7,7 @@ import dynamicImport from "next/dynamic";
  */
 const App = dynamicImport(() => import("./App"), { ssr: false });
 
-export const dynamic = "force-dynamic";
+export const dynamic = "error";
 
 export default App;
  
